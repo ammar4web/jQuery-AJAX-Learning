@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jQuery</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.6.1.slim.min.js"></script>
+    <script>
+      jQuery(document).ready(function () {
+        $("a")
+          .text("The first line by jQuery")
+          .attr("href", "https://ammar4web.github.io/");
+      });
+    </script>
   </head>
   <body>
-    <script src="jquery-3.6.1.slim.min.js"></script>
+    <a></a>
   </body>
 </html>
