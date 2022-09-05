@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      .error {
+        color: red;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Subscription Form</h1>
+      <form action="" id="myForm">
+        <div>
+          <label for="text">User Name:</label>
+          <input type="text" name="userName" id="userName" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="agree">I agree to the terms and conditions</label>
+        </div>
+        <input type="submit" value="Register" />
+        <input type="reset" value="Clear" />
+      </form>
+    </section>
+    <script src="../jquery-3.6.1.min.js"></script>
+    <script src="../jquery.validate.min.js"></script>
+    <script src="../jQueryJavaScrip/validation.js"></script>
+  </body>
+</html>
