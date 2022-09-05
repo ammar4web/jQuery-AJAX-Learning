@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      .select-section {
+        padding-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .select-section p {
+        text-align: center;
+        flex-grow: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <section>
+        <div>
+          <input type="checkbox" name="html" id="html" />
+          <label for="html">HTML</label>
+        </div>
+        <div>
+          <input type="checkbox" name="css" id="css" />
+          <label for="css">CSS</label>
+        </div>
+        <div>
+          <input type="checkbox" name="javaScript" id="javaScript" />
+          <label for="javaScript">JavaScript</label>
+        </div>
+        <div>
+          <input type="checkbox" name="jQuery" id="jQuery" />
+          <label for="jQuery">jQuery</label>
+        </div>
+      </section>
+      <hr />
+      <!--  -->
+      <section class="select-section">
+        <select name="languages" id="languages">
+          <option value="">Select Language</option>
+          <option value="java">Java</option>
+          <option value="c#">C#</option>
+          <option value="php">PHP</option>
+          <option value="python">Python</option>
+        </select>
+        <p></p>
+      </section>
+      <!--  -->
+      <section>
+        <input type="button" id="selectBtn" value="Select All" />
+        <input type="button" id="deselectBtn" value="Deselect All" />
+      </section>
+    </form>
+
+    <script src="../jquery-3.6.1.slim.min.js"></script>
+    <script src="../jQueryJavaScrip/forms.js"></script>
+  </body>
+</html>
