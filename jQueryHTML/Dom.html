@@ -17,6 +17,21 @@
       $("p").parent().css("background-color", "#ffa50099");
       $("#content").children().css("font-size", "24px");
       $("div").children("p").css("color", "#fff");
+      
+      // 
+      // 
+      
+      $('#content').append('<p> .append() </p>');
+      $('#content').prepend('<p> .prepend() </p>');
+      // 
+      $('<p> .appendTo() </p>').appendTo('#content');
+      $('<p> .prependTo() </p>').prependTo('#content');
+      // 
+      $('#content').after('<p> .after() </p>');
+      $('#content').before('<p> .before() </p>');
+      // 
+      $('#content').remove();
+      
     </script>
   </body>
 </html>
