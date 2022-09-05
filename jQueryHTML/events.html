@@ -22,7 +22,13 @@
     
     <script src="../jquery-3.6.1.slim.min.js"></script>
     <script>
-      
+      $("#content").click(function () {
+        console.log(".click()");
+      });
+      // 
+      $("#one").focus(function () {
+        $(this).addClass("input-style");
+      });
     </script>
   </body>
 </html>
