@@ -14,6 +14,7 @@
     </main>
 
     <script src="../jquery-3.6.1.min.js"></script>
-    <script src="get.js"></script>
+    <!-- <script src="get.js"></script> -->
+    <script src="post.js"></script>
   </body>
 </html>
